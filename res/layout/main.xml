@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <SeekBar
+        android:id="@+id/seek"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFFFF"
+        android:progressDrawable="@drawable/seekbar_background"
+        android:max="100" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/chocolate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chocolate" />
+
+        <RadioButton
+            android:id="@+id/hug"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hug" />
+
+        <RadioButton
+            android:id="@+id/santaclaus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/santaclaus" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkchocolate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/chocolate" />
+
+    <TextView
+        android:id="@+id/txvText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+</LinearLayout>

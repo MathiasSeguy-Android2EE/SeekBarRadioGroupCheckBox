@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TP2CoursIHM4Activity! Here are the value of the component . </string>
+    <string name="app_name">TP2CoursIHM4</string>
+    <string name="chocolate">chocolate</string>
+    <string name="hug">hug</string>
+    <string name="santaclaus">santaclaus</string>
+    <string name="radiogroupstate">Le bouton sélectionné est %1$s</string>
+    <string name="seekbarstate">La valeur de la seek bar est %1$d</string>
+    <string name="checkboxstate">La checkbox est sélectionné est %1$b</string>
+
+</resources>
